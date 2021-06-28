@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Work+Sans:300,400,600");
+.sticky-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 8px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1; }
+
+@media only screen and (min-width: 425px) {
+  .sticky-header {
+    padding: 20px 40px; } }
+
+.sticky-header a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none; }
+
+.sticky-header a:visited {
+  color: black; }
+
+.sticky-header a:hover {
+  text-decoration: underline; }
+
+@media only screen and (min-width: 425px) {
+  .sticky-header a {
+    font-size: 14px; } }
+
+@media only screen and (min-width: 600px) {
+  .sticky-header a {
+    font-size: 18px; } }
+
+.sticky-header .right-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.sticky-header .right-links a {
+  display: inline-block;
+  margin-right: 10px; }
+
+@media only screen and (min-width: 770px) {
+  .sticky-header .right-links a {
+    margin-right: 20px; } }
+
+html,
+body {
+  height: 100%; }
+
+.section-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-bottom: 5%; }
+
+.cover-section {
+  display: block;
+  position: relative;
+  height: 54vw;
+  margin: 30px;
+  font-size: 13px;
+  font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer; }
+
+@media only screen and (min-width: 320px) {
+  .cover-section {
+    height: 75vw; } }
+
+@media only screen and (min-width: 425px) {
+  .cover-section {
+    font-size: 16px; } }
+
+@media only screen and (min-width: 600px) {
+  .cover-section {
+    height: auto;
+    font-size: 13px; } }
+
+@media only screen and (min-width: 900px) {
+  .cover-section {
+    font-size: 18px; } }
+
+.cover-section .section-info,
+.cover-section .mockup,
+.cover-section .logo,
+.cover-section .intro-paragraph {
+  position: absolute; }
+
+.cover-section .intro-paragraph {
+  display: none;
+  bottom: 0;
+  padding: 0 10px;
+  margin-bottom: 10px; }
+
+@media only screen and (min-width: 320px) {
+  .cover-section .intro-paragraph {
+    display: block; } }
+
+.cover-section .cover-background {
+  display: none;
+  width: 100%;
+  opacity: .15; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section .cover-background {
+    display: block; } }
+
+.cover-section .view-project {
+  display: none;
+  position: absolute;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: -.05em; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section .view-project {
+    display: block; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section .view-project {
+    font-size: 14px; } }
+
+.cover-section .view-project-arrow {
+  width: 21px;
+  height: 8px; }
+
+@media only screen and (min-width: 770px) {
+  .cover-section .view-project-arrow {
+    width: 37px; } }
+
+.cover-section .dividing-line {
+  display: none;
+  position: absolute;
+  height: 1px; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section .dividing-line {
+    display: block; } }
+
+.cover-section:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.cover-section.spotify {
+  color: #3eb361;
+  background-image: url("../img/spotify-home-bg-mobile.jpg");
+  background-size: cover; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.spotify {
+    margin: 10% 15% 10% 50px;
+    background-image: none; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.spotify {
+    margin: 10% 25% 10% 100px; } }
+
+.cover-section.spotify:before {
+  background: -webkit-linear-gradient(45deg, rgba(156, 255, 156, 0.3) 0%, rgba(156, 255, 156, 0.1) 100%);
+  background: -o-linear-gradient(45deg, rgba(156, 255, 156, 0.3) 0%, rgba(156, 255, 156, 0.1) 100%);
+  background: linear-gradient(45deg, rgba(156, 255, 156, 0.3) 0%, rgba(156, 255, 156, 0.1) 100%); }
+
+.cover-section.spotify .mockup {
+  width: 70%;
+  top: 13%;
+  left: -5%; }
+
+.cover-section.spotify .logo {
+  top: 10%;
+  right: -10%;
+  left: 50%;
+  width: 55%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.spotify .logo {
+    width: 30%; } }
+
+.cover-section.spotify .dividing-line {
+  width: 3%;
+  top: 30%;
+  left: 61%;
+  background-color: #3eb361; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.spotify .intro-paragraph {
+    left: 61%;
+    top: 30%;
+    width: 54%;
+    padding: 0;
+    margin-bottom: initial; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.spotify .intro-paragraph {
+    width: 60%; } }
+
+.cover-section.spotify .view-project {
+  right: 4%;
+  bottom: 4%; }
+
+.cover-section.spotify .view-project-arrow-g {
+  stroke: #3eb361;
+  fill: #3eb361; }
+
+.cover-section.salvation-army {
+  background-image: url("../img/sa-background-mobile.jpg");
+  background-position: 90%;
+  background-size: cover;
+  color: #e50e2f; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.salvation-army {
+    background-image: none;
+    margin: 0 65px 10% 15%; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.salvation-army {
+    margin: 0 150px 10% 20%; } }
+
+.cover-section.salvation-army:before {
+  background: -webkit-linear-gradient(135deg, rgba(255, 168, 168, 0.4) 0%, rgba(255, 168, 168, 0.1) 100%);
+  background: -o-linear-gradient(135deg, rgba(255, 168, 168, 0.4) 0%, rgba(255, 168, 168, 0.1) 100%);
+  background: linear-gradient(-45deg, rgba(255, 168, 168, 0.4) 0%, rgba(255, 168, 168, 0.1) 100%); }
+
+.cover-section.salvation-army .mockup {
+  width: 55%;
+  right: -5%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.salvation-army .mockup {
+    width: 47%;
+    top: 6.5%; } }
+
+.cover-section.salvation-army .logo {
+  width: 60%;
+  top: 7%;
+  left: -3%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.salvation-army .logo {
+    width: 30%;
+    top: 16%;
+    left: -3%; } }
+
+.cover-section.salvation-army .dividing-line {
+  width: 3%;
+  top: 36%;
+  left: 6.5%;
+  background-color: #e50e2f; }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.salvation-army .dividing-line {
+    top: 38%; } }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.salvation-army .intro-paragraph {
+    margin: 0;
+    padding: 0;
+    top: 41%;
+    left: 6.5%;
+    width: 50%; } }
+
+.cover-section.salvation-army .view-project {
+  left: 4%;
+  bottom: 4%; }
+
+.cover-section.salvation-army .view-project-arrow-g {
+  stroke: #e50e2f;
+  fill: #e50e2f; }
+
+.cover-section.visier {
+  background-image: url("../img/visier-home-bg-mobile.jpg");
+  background-position: 45%;
+  background-size: cover;
+  color: #2e498A; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.visier {
+    background-image: none;
+    margin: 0 15% 0 70px; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.visier {
+    margin: 0 25% 5% 100px; } }
+
+.cover-section.visier:before {
+  background: -webkit-linear-gradient(45deg, rgba(124, 162, 255, 0.3) 0%, rgba(124, 162, 255, 0.1) 100%);
+  background: -o-linear-gradient(45deg, rgba(124, 162, 255, 0.3) 0%, rgba(124, 162, 255, 0.1) 100%);
+  background: linear-gradient(45deg, rgba(124, 162, 255, 0.3) 0%, rgba(124, 162, 255, 0.1) 100%); }
+
+.cover-section.visier .mockup {
+  width: 75%;
+  left: -3%;
+  top: 32%;
+  -webkit-box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.25); }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.visier .mockup {
+    width: 70%;
+    left: -6%;
+    bottom: 2%;
+    top: 47%; } }
+
+@media only screen and (min-width: 600px) and (min-height: 770px) {
+  .cover-section.visier .mockup {
+    top: 40%; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.visier .mockup {
+    top: 55%; } }
+
+.cover-section.visier .logo {
+  width: 60%;
+  top: 9%;
+  left: -3%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.visier .logo {
+    width: 35%;
+    top: 5%; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.visier .logo {
+    top: 15%; } }
+
+.cover-section.visier .dividing-line {
+  width: 3%;
+  top: 19%;
+  left: 10%;
+  background-color: #2e498A; }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.visier .dividing-line {
+    top: 29%; } }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.visier .intro-paragraph {
+    margin: 2% 0 0 0;
+    padding: 0;
+    width: 55%;
+    top: 19%;
+    left: 10%; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.visier .intro-paragraph {
+    top: 29%; } }
+
+.cover-section.visier .view-project {
+  right: 4%;
+  bottom: 5%; }
+
+.cover-section.visier .view-project-arrow-g {
+  stroke: #2e498A;
+  fill: #2e498A; }
+
+.cover-section.adopto {
+  color: #3858e3;
+  background-image: url("../img/adopto-home-bg-mobile.jpg");
+  background-size: cover;
+  background-position: 50%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.adopto {
+    margin: 10% 50px 10% 15%;
+    background-image: none; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.adopto {
+    margin: 10% 200px 10% 25%; } }
+
+.cover-section.adopto:before {
+  background: -webkit-linear-gradient(45deg, rgba(255, 125, 0, 0.3) 0%, rgba(174, 103, 75, 0.1) 100%);
+  background: -o-linear-gradient(45deg, rgba(255, 125, 0, 0.3) 0%, rgba(174, 103, 75, 0.1) 100%);
+  background: linear-gradient(45deg, rgba(255, 125, 0, 0.3) 0%, rgba(174, 103, 75, 0.1) 100%); }
+
+.cover-section.adopto .mockup {
+  width: 56%;
+  top: 3%;
+  left: -10%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.adopto .mockup {
+    width: 49%;
+    top: 35%; } }
+
+.cover-section.adopto .logo {
+  top: 35%;
+  right: -10%;
+  left: 50%;
+  width: 55%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.adopto .logo {
+    width: 30%; } }
+
+.cover-section.adopto .dividing-line {
+  width: 3%;
+  top: 50%;
+  left: 61%;
+  background-color: #3858e3; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.adopto .intro-paragraph {
+    left: 61%;
+    top: 51%;
+    width: 45%;
+    padding: 0;
+    margin-bottom: initial; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.adopto .intro-paragraph {
+    width: 60%; } }
+
+.cover-section.adopto .view-project {
+  right: 4%;
+  bottom: 4%; }
+
+.cover-section.adopto .view-project-arrow-g {
+  stroke: #3858e3;
+  fill: #3858e3; }
+
+.cover-section.dwr {
+  background-image: url("../img/dwr-home-bg-mobile.jpg");
+  background-position: 90%;
+  background-size: cover;
+  color: #831116; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.dwr {
+    background-image: none;
+    margin: 0 65px 10% 15%; } }
+
+@media only screen and (min-width: 770px) {
+  .cover-section.dwr {
+    margin: 0 150px 10% 20%; } }
+
+.cover-section.dwr:before {
+  background: -webkit-linear-gradient(135deg, rgba(255, 168, 168, 0.4) 0%, rgba(255, 168, 168, 0.1) 100%);
+  background: -o-linear-gradient(135deg, rgba(255, 168, 168, 0.4) 0%, rgba(255, 168, 168, 0.1) 100%);
+  background: linear-gradient(-45deg, rgba(255, 168, 168, 0.4) 0%, rgba(255, 168, 168, 0.1) 100%); }
+
+.cover-section.dwr .mockup {
+  width: 75%;
+  top: 10%;
+  right: -5%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.dwr .mockup {
+    width: 70%;
+    top: 56%; } }
+
+.cover-section.dwr .logo {
+  width: 40%;
+  top: 5%;
+  left: -3%; }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.dwr .logo {
+    width: 30%;
+    top: 35%;
+    left: -8%; } }
+
+@media only screen and (min-width: 600px) {
+  .cover-section.dwr .intro-paragraph {
+    margin: 0;
+    padding: 0;
+    top: 34%;
+    left: 28%;
+    width: 40%; } }
+
+.cover-section.dwr .view-project {
+  left: 4%;
+  bottom: 4%; }
+
+.cover-section.dwr .view-project-arrow-g {
+  stroke: #831116;
+  fill: #831116; }
+
+/*# sourceMappingURL=main.css.map */

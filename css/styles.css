@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Work+Sans:300,400,600");
+/* line 10, ../../portfolio/sass/styles.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 15, ../../portfolio/sass/styles.scss */
+.section-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+/* line 21, ../../portfolio/sass/styles.scss */
+.cover-section {
+  display: block;
+  position: relative;
+  height: 54vw;
+  margin: 30px;
+  font-size: 13px;
+  font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) {
+  /* line 33, ../../portfolio/sass/styles.scss */
+  .cover-section {
+    height: 75vw;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  /* line 39, ../../portfolio/sass/styles.scss */
+  .cover-section {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 45, ../../portfolio/sass/styles.scss */
+  .cover-section {
+    height: auto;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* line 52, ../../portfolio/sass/styles.scss */
+  .cover-section {
+    font-size: 18px;
+  }
+}
+
+/* line 57, ../../portfolio/sass/styles.scss */
+.cover-section .section-info,
+.cover-section .mockup,
+.cover-section .cover-header,
+.cover-section .intro-paragraph {
+  position: absolute;
+}
+
+/* line 64, ../../portfolio/sass/styles.scss */
+.cover-section .intro-paragraph {
+  display: none;
+  bottom: 0;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 320px) {
+  /* line 72, ../../portfolio/sass/styles.scss */
+  .cover-section .intro-paragraph {
+    display: block;
+  }
+}
+
+/* line 77, ../../portfolio/sass/styles.scss */
+.cover-section .cover-background {
+  display: none;
+  width: 100%;
+  opacity: .15;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 84, ../../portfolio/sass/styles.scss */
+  .cover-section .cover-background {
+    display: block;
+  }
+}
+
+/* line 89, ../../portfolio/sass/styles.scss */
+.cover-section .view-project {
+  position: absolute;
+  font-size: 32px;
+}
+
+/* line 94, ../../portfolio/sass/styles.scss */
+.cover-section:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 102, ../../portfolio/sass/styles.scss */
+.cover-section.visier {
+  background-image: url("../img/visier-home-bg-mobile.jpg");
+  background-position: 45%;
+  background-size: cover;
+  color: #2e498A;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 110, ../../portfolio/sass/styles.scss */
+  .cover-section.visier {
+    background-image: none;
+    margin: 0 15% 0 70px;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  /* line 117, ../../portfolio/sass/styles.scss */
+  .cover-section.visier {
+    margin: 0 25% 5% 100px;
+  }
+}
+
+/* line 122, ../../portfolio/sass/styles.scss */
+.cover-section.visier:before {
+  background: linear-gradient(45deg, rgba(124, 162, 255, 0.3) 0%, rgba(124, 162, 255, 0.1) 100%);
+}
+
+/* line 126, ../../portfolio/sass/styles.scss */
+.cover-section.visier .mockup {
+  width: 75%;
+  left: -3%;
+  top: 32%;
+  box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 134, ../../portfolio/sass/styles.scss */
+  .cover-section.visier .mockup {
+    width: 70%;
+    left: -6%;
+    bottom: 2%;
+    top: 47%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (min-height: 770px) {
+  /* line 143, ../../portfolio/sass/styles.scss */
+  .cover-section.visier .mockup {
+    top: 40%;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  /* line 149, ../../portfolio/sass/styles.scss */
+  .cover-section.visier .mockup {
+    top: 55%;
+  }
+}
+
+/* line 154, ../../portfolio/sass/styles.scss */
+.cover-section.visier .cover-header {
+  width: 60%;
+  top: 9%;
+  left: -3%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 161, ../../portfolio/sass/styles.scss */
+  .cover-section.visier .cover-header {
+    width: 100%;
+    top: 5%;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  /* line 168, ../../portfolio/sass/styles.scss */
+  .cover-section.visier .cover-header {
+    top: 15%;
+  }
+}
+
+/* line 173, ../../portfolio/sass/styles.scss */
+.cover-section.visier .dividing-line {
+  width: 3%;
+  top: 19%;
+  left: 10%;
+  background-color: #2e498A;
+}
+
+@media only screen and (min-width: 770px) {
+  /* line 181, ../../portfolio/sass/styles.scss */
+  .cover-section.visier .dividing-line {
+    top: 29%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 187, ../../portfolio/sass/styles.scss */
+  .cover-section.visier .intro-paragraph {
+    margin: 2% 0 0 0;
+    padding: 0;
+    width: 55%;
+    top: 19%;
+    left: 10%;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  /* line 197, ../../portfolio/sass/styles.scss */
+  .cover-section.visier .intro-paragraph {
+    top: 29%;
+  }
+}
+
+/* line 202, ../../portfolio/sass/styles.scss */
+.cover-section.visier .view-project {
+  right: 4%;
+  bottom: 5%;
+}
+
+/* line 207, ../../portfolio/sass/styles.scss */
+.cover-section.visier .view-project-arrow-g {
+  stroke: #2e498A;
+  fill: #2e498A;
+}
+
+/*# sourceMappingURL=styles.css.map */
