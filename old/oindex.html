@@ -15,7 +15,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
+  <link href="sass/styles.css" rel="stylesheet">
 
   <!-- Custom fonts -->
   <link href="font-awesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
@@ -28,22 +28,17 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <span class="navbar-brand js-scroll-trigger personal-logo" href="#page-top"><img style="border-radius: 50%" src="img/personallogo6.png"></span>
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Randy Panopio</a>
-      
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-         <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#games">Games</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
         </ul>
       </div>
@@ -60,20 +55,41 @@
     <div class="intro-body">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1 class="brand-heading hi">Hi! I'm Randy</h1>
-            <h2 class="brand-heading">I'm a design oriented developer with a core focus on user experience.</h2>
-            <br>
-            <p>
-                Nowadays my main focus has been making games, if you are interested in checking out what I have been up to, click <a class="highlighted" href="#games">here</a>. 
-                <br>I've also had my pleasure in working on some really cool design focused projects, you can check them out <a class="highlighted" href="#projects">here</a>! 
-            </p>
+          <div class="col-lg-6 mx-auto">
+            <h1 class="brand-heading hi">Hi, I'm Randy</h1>
+            <h2 class="brand-heading">A multidisciplinary designer with a focus in web development and user experience based in Vancouver, BC. <span class="highlighted">Exploring 2020 Opportunities.</span></h2>
           </div>
+          <div class="col-lg-6 mx-auto">
+            <!-- <img class="hero-banner" src="img/index-hero.jpg" alt="hero image"> -->
+            <!-- <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img src="img/safe-cover-bg.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="img/lookbook-cover-bg.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="img/safe-cover-bg.png" style="width:100%">
+              </div> -->
+              <div id="slideshow">
+               <div>
+                 <img src="img/heroimage1.png">
+               </div>
+               <div>
+                 <img src="img/heroimage2.png">
+               </div>
+               <div>
+                 <img src="img/heroimage3.png">
+               </div>
+            </div>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-2 mx-auto">
-            <a href="#games" class="js-scroll-trigger scroll-btn">
+          <div class="col-lg-4 mx-auto">
+            <a href="#projects" class="js-scroll-trigger scroll-btn">
                 <i class="fa fa-circle" aria-hidden="true" style="font-size: 0.2em; margin-bottom: 3px;"></i>
                 <i class="fas fa-chevron-down animated"></i>
                 <i class="fas fa-chevron-down animated"></i>
@@ -84,79 +100,9 @@
     </div>
   </header>
 
-  <!-- About Me-->
-  <section id="about" class="about-section content-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1 class="brand-heading hi">about me.</h1>
-          <p>
-            I'm a multidisciplinary designer and developer born in The Philippines and based in Vancouver, BC. Coming from a diverse
-  background, with interests from
-  film writing, cinematography, and teaching kids how to make games, to partaking in history research and
-  trying my hand in digital art, I try to bridge ideas and create
-  touchpoints in all of the projects that I partake in.
-  <br />
+  <!-- Projects -->
 
-
-  <br />
-  As a BSc graduate of <i class="highlighted">The School of Interactive Arts and Technology (SIAT)</i> at <b>Simon Fraser University</b>, I've oriented my goal in every project is to bring meaningful excitement to my audience and bring pleasure to everyone who interacts with them.
-  <br>
-  If you would like to get in touch, I may be contacted at <b class="highlighted">randypanopio@gmail.com</b>
-
-    <br />
-    <br />
-  <p>
-    <a href="http://www.sfu.ca/~rpanopio/resume.pdf">download my resume</a>
-    <i class="fa fa-circle" aria-hidden="true" style="font-size: 0.35em; padding:0 10px; vertical-align: middle"></i>
-    <a href="https://www.linkedin.com/in/randy-panopio-29bb47109/">get connected with me on linkedIn</a>
-    <i class="fa fa-circle" aria-hidden="true" style="font-size: 0.35em; padding:0 10px; vertical-align: middle"></i>
-    <a href="https://github.com/randypanopio">check out my github</a>
-  </p>
-          </p>
-        </div>
-        <div class="col-lg-4 mx-auto">
-          <img class="profile-image" src="img/profile.jpg" alt="profile image">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
-
-    <!-- Games-->
-    <section id="games" class="about-section content-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
-             <h1 class="brand-heading hi">game projects.</h1>
-             <p>Below are some games that I have worked on</p>
-             <br>
-             <br>
-          </div>
-        </div>
-      </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8">
-                (Currently Work in Progress, coming soon!)
-            </div>
-          </div>
-        </div>
-      </section>
-
-  <!-- projects -->
   <section id="projects" class="content-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-           <h1 class="brand-heading hi">project case studies.</h1>
-           <p>Below are some projects that go more in detail into some design focused projects and how I approached different kinds of design problems</p>
-           <br>
-           <br>
-        </div>
-      </div>
-    </div>
     <div class="container">
       <div class="section-container">
         <a class="cover-section safe odd" href="safe.html">
@@ -231,13 +177,47 @@
 
   </section>
 
+  <!-- About Me-->
+  <section id="about" class="about-section content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="brand-heading hi">about me.</h1>
+          <p>
+            I am a multidisciplinary designer and web developer born in The Philippines and based in Vancouver, BC. Coming from a diverse
+  background, with interests from
+  film and games, to history and
+  art, I bridge ideas and create
+  touchpoints in all of the projects
+  that I partake in.
+  <br />
+  <br />
+  My goal is to create projects that
+  bring meaningful excitement to my audience and bring pleasure to everyone who use them.  If you would like to get in touch, I may be contacted at <b class="highlighted">rpanopio@sfu.ca</b>
 
+    <br />
+    <br />
+  <p>
+    <a href="http://www.sfu.ca/~rpanopio/resume.pdf">download my resume</a>
+    <i class="fa fa-circle" aria-hidden="true" style="font-size: 0.35em; padding:0 10px; vertical-align: middle"></i>
+    <a href="https://www.linkedin.com/in/randy-panopio-29bb47109/">get connected with me on linkedIn</a>
+    <i class="fa fa-circle" aria-hidden="true" style="font-size: 0.35em; padding:0 10px; vertical-align: middle"></i>
+    <a href="https://github.com/randypanopio">check out my github</a>
+  </p>
+          </p>
+        </div>
+        <div class="col-lg-4 mx-auto">
+          <img class="profile-image" src="img/profile.jpg" alt="profile image">
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer>
     <div class="container text-center ">
       <div class="site-footer-links">
-        <div class="copyright">Designed and Coded by Randy Panopio <script>document.write(new Date().getFullYear())</script></div>
+        <div class="copyright">Made by Randy Panopio &copy; 2020</div>
       </div>
     </div>
   </footer>
