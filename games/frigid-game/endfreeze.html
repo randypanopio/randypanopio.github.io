@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="utf8"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display" rel="stylesheet">
+
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+
+</head>
+<body>
+	<div id="container">
+    <ul id="stats">
+			<li>
+				Days elapsed: <span id="final_day"></span>
+			</li>
+      <li>
+				Remaining members: <span id="final_party"></span>
+			</li>
+		</ul>
+		<p>Your party ran out of power and froze to death</p>
+
+		<div id="frozenimage">
+
+		</div>
+		
+		<a class="button" onclick="resetStats()" href="index.html">Restart</a>
+
+	</div>
+
+</body>
+
+<script src="js/enumerate-stats.js"></script>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "default": {
+    "poses": {},
+    "name": "",
+    "powers": 10,
+    "foods": 10
+  },
+  "nullchar": {
+    "poses": {
+      "default": ""
+    },
+    "name": "The Group"
+  },
+  "bunker_scientist": {
+    "poses": {
+      "default": ""
+    },
+    "name": "Scientist"
+  }
+}

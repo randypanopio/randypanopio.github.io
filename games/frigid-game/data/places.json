@@ -1,0 +1,222 @@
+{
+    "california" : {
+        "name":"California",
+        "image":"img/start.png"
+    },
+    "a2_santabarbara" : {
+        "name":"SantaBarbara",
+        "image":"img/a2_santabarbara.png"
+    },
+    "a3a_santabarbara" : {
+        "name":"SantaBarbara",
+        "image":"img/a3a_santabarbara.png"
+    },
+    "a3b_santabarbara" : {
+        "name":"SantaBarbara",
+        "image":"img/a3b_santabarbara.png"
+    },
+    "a4a_losangeles" : {
+        "name":"LosAngeles",
+        "image":"img/a4a_losangeles.png"
+    },
+    "a5_tijuana" : {
+        "name":"Tijuana",
+        "image":"img/a5_tijuana.png"
+    },
+    "a6_baja" : {
+        "name":"Baja",
+        "image":"img/a6_baja.png"
+    },
+    "a7_california" : {
+        "name":"GulfOfCalifornia",
+        "image":"img/a7_california.png"
+    },
+    "a8a_sonora" : {
+        "name":"Sonora",
+        "image":"img/a8a_sonora.png"
+    },
+    "a8a2_sonora" : {
+        "name":"Sonora",
+        "image":"img/a8a2_sonora.png"
+    },
+    "a8b_california" : {
+        "name":"GulfOfCalifornia",
+        "image":"img/a8b_california.png"
+    },
+    "a8b2_california" : {
+        "name":"GulfOfCalifornia",
+        "image":"img/a8b2_california.png"
+    },
+    "a9_sinaloa" : {
+        "name":"Sinaloa",
+        "image":"img/a9_sinaloa.png"
+    },
+    "a10_sinaloa" : {
+        "name":"Sinaloa",
+        "image":"img/a10_sinaloa.png"
+    },
+    "a11_sinaloa" : {
+        "name":"Bunker",
+        "image":"img/a11_sinaloa.png"
+    },
+    "a12_sinaloa" : {
+        "name":"Bunker",
+        "image":"img/a12_sinaloa.png"
+    },
+    "e_generic_gain" : {
+        "name":"Bunker",
+        "image":"img/e_generic_gain.png"
+    },
+    "a13_mexico" : {
+        "name":"MexicoCity",
+        "image":"img/a13_mexico.png"
+    },
+    "b1_mexico" : {
+        "name":"MexicoCity",
+        "image":"img/b1_mexico.png"
+    },
+    "b2_mexico" : {
+        "name":"MexicoCity",
+        "image":"img/b2_mexico.png"
+    },
+    "b3_mexico" : {
+        "name":"MexicoCity",
+        "image":"img/b3_mexico.png"
+    },
+    "e_generic_leave" : {
+        "name":"MexicoCity",
+        "image":"img/e_generic_leave.png"
+    },
+    "b3b_oaxaca" : {
+        "name":"Oaxaca",
+        "image":"img/b3b_oaxaca.png"
+    },
+    "b4_oaxaca" : {
+        "name":"Oaxaca",
+        "image":"img/b4_oaxaca.png"
+    },
+    "e_generic_scavenge" : {
+        "name":"Oaxaca",
+        "image":"img/e_generic_scavenge.png"
+    },
+    "b5_honduras" : {
+        "name":"Honduras",
+        "image":"img/b5_honduras.png"
+    },
+    "b5a_honduras" : {
+        "name":"Honduras",
+        "image":"img/b5a_honduras.png"
+    },
+    "b6_honduras" : {
+        "name":"Honduras",
+        "image":"img/b6_honduras.png"
+    },
+    "b6a_honduras" : {
+        "name":"Honduras",
+        "image":"img/b6a_honduras.png"
+    },
+    "b7_costarica" : {
+        "name":"Honduras",
+        "image":"img/b7_costarica.png"
+    },
+    "b7a_costarica" : {
+        "name":"Honduras",
+        "image":"img/b7a_costarica.png"
+    },
+    "b8_panama" : {
+        "name":"PanamaCity",
+        "image":"img/b8_panama.png"
+    },
+    "b9_tunnel" : {
+        "name":"Tunnel",
+        "image":"img/b9_tunnel.png"
+    },
+    "b10_tunnel" : {
+        "name":"Tunnel",
+        "image":"img/b10_tunnel.png"
+    },
+    "b10a_tunnel" : {
+        "name":"Tunnel",
+        "image":"img/b10a_tunnel.png"
+    },
+    "b11_tunnel" : {
+        "name":"Tunnel",
+        "image":"img/b11_tunnel.png"
+    },
+    "b12_tunnel" : {
+        "name":"Tunnel",
+        "image":"img/b12_tunnel.png"
+    },
+    "b13_tunnel" : {
+        "name":"PowerGrid",
+        "image":"img/b13_tunnel.png"
+    },
+    "b13_tunnel" : {
+        "name":"PowerGrid",
+        "image":"img/b13_tunnel.png"
+    },
+    "c1_brazil" : {
+        "name":"Brazil",
+        "image":"img/c1_brazil.png"
+    },
+    "c2_brazil" : {
+        "name":"TheAmazon",
+        "image":"img/c2_brazil.png"
+    },
+    "c3_theamazon" : {
+        "name":"TheAmazon",
+        "image":"img/c3_theamazon.png"
+    },
+    "c4a_theamazon" : {
+        "name":"TheAmazon",
+        "image":"img/c4a_theamazon.png"
+    },
+    "c4b_theamazon" : {
+        "name":"TheAmazon",
+        "image":"img/c4b_theamazon.png"
+    },
+    "c5_brazil" : {
+        "name":"Brazil",
+        "image":"img/c5_brazil.png"
+    },
+    "c6_brazil" : {
+        "name":"Brazil",
+        "image":"img/c6_brazil.png"
+    },
+    "c7_urdaneta" : {
+        "name":"Urdaneta",
+        "image":"img/c7_urdaneta.png"
+    },
+    "c8_urdaneta" : {
+        "name":"Urdaneta",
+        "image":"img/c8_urdaneta.png"
+    },
+    "c9_urdaneta" : {
+        "name":"Urdaneta",
+        "image":"img/c9_urdaneta.png"
+    },
+    "c9a_urdaneta" : {
+        "name":"Brazil",
+        "image":"img/c9a_urdaneta.png"
+    },
+    "c10_brazil" : {
+        "name":"Brazil",
+        "image":"img/c10_brazil.png"
+    },
+    "c11a_brazil" : {
+        "name":"Brazil",
+        "image":"img/c11a_brazil.png"
+    },
+    "c11b_brazil" : {
+        "name":"Brazil",
+        "image":"img/c11b_brazil.png"
+    },
+    "c12_fortaleza" : {
+        "name":"Fortaleza",
+        "image":"img/c12_fortaleza.png"
+    },
+    "c13_fortaleza" : {
+        "name":"Fortaleza",
+        "image":"img/c13_fortaleza.png"
+    }
+}
