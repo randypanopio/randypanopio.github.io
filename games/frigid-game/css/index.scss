@@ -1,0 +1,100 @@
+body
+{
+	background-color:#000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5px;
+}
+
+.wow {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+h1.wow {
+	font-size: 240px;
+}
+p.wow{
+	font-size: 40px;
+	padding-top: 45px;
+}
+
+#container
+{
+	font-size:24px;
+	margin: 0 auto;
+	padding:10px 50px;
+	width:800px;
+	position:relative;
+	text-align:center;
+	color:white;
+	height:100%;
+}
+h1
+{
+	font-size:48px;
+	padding-top: 30px;
+	text-align:center;
+	color:white;
+}
+p
+{
+	margin: 20px;
+	font-size: 20px;
+}
+a
+{
+	color:rgb(255, 247, 128);
+}
+a.button
+{
+	text-align: center;
+	top: 40%;
+	width: 200px;
+	background-color: #2d2e32;
+	left: calc(50% - 150px);
+	font-size: 42px;
+	text-decoration: none;
+	color:#fff;
+	display:inline-block;
+	margin:20px auto;
+	padding: 15px 0px;
+	border:3px solid #fff;
+	border-radius:7px;
+}
+a.button:hover
+{
+	text-shadow:0px 0px 8px white;
+	background:rgba(107, 130, 142,0.2);
+}
+ul
+{
+	list-style-type:none;
+	font-size:18px;
+	padding: 0px;
+	margin: 20px;
+}
+li
+{
+	color:#fff;
+	margin: 5px;
+}
+
+#indexpage {
+	width: 100%;
+	height: 100%;
+	background-image:url('../img/frigidhome.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+#frozenimage {
+	font-size:17px;
+	font-family: 'Playfair Display', sans-serif;
+	width:800;
+	height:720px;
+	color: darkblue;
+	border:5px solid rgba(0,0,0,0.3);
+	border-radius:8px;
+	position: relative;
+	background-image:url('../img/death.png');
+	background-repeat:no-repeat;
+}
